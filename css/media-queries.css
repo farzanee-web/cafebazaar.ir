@@ -1,0 +1,308 @@
+@media screen and (max-width:480px) {
+    .topapp{
+        width:calc(31vw - 1rem);
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:639px) {
+    .topapp{
+        width:calc(24vw - 1rem);
+    }
+}
+
+@media screen and (max-width:639px){
+    .banner-pic{
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: calc(100% / 7);
+      height: calc(calc(100vw / 7) + 4.58px) ;
+    }
+
+    .banner-gap1{
+        flex-basis: calc(100% / 7 * 3);
+    }
+
+    .banner-gap2{
+        flex-basis: calc(100% / 7 * 5);
+    }
+
+    .banner-gap3{
+       display: none;
+    }
+
+    .banner-med{
+        display: none;
+    }
+
+    .banner-max{
+        display: none;
+    }
+
+    .main-container{
+        background-color:  #fff;
+    }
+
+    .achievement-section{
+        width: 100%;
+    }
+
+    .top-app-f{
+        border: none;
+        background-color: none;
+    }
+
+    .top-app-head{
+        border: none;
+        padding: 12.8px 0;
+    }
+
+    .top-app-w{
+        width: 100vw;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .magazine-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width:640px) and (max-width:1023px) {
+    .banner-pic{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(100% / 12);
+        height: calc(calc(100vw / 12) + 4.58px);
+        padding: 6.4px;
+    }
+    
+    .banner-gap1{
+        flex-basis: calc(100% / 12 * 4);
+    }
+    
+    .banner-gap2{
+       flex-basis: calc(100% / 12 * 6);
+    }
+
+    .banner-gap3{
+       flex-basis: calc(100% / 12 * 8);
+    }
+
+    .banner-max{
+       display: none;
+    }
+
+    .achievement-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .achievement-animation{
+        width: 50%;
+    }
+
+    .topapp{
+        width:calc(16vw - 1rem);
+    }
+
+    .magazine-section{
+        width: calc(100% / 2);
+    }
+     
+}
+
+@media screen and (max-width:1023px){
+    .nav{
+      justify-content: center;
+      height: 56px;
+      border-bottom: 1px solid #e5e7f0;
+      max-width: 1000px;
+    }
+
+    .menu-max,
+    .menu-max>*{
+        display: none;
+    }
+
+    .menu-max{
+        padding: 0 ;
+    }
+
+    .nav{
+        height: 56px;
+    }
+
+    .search{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .desktop{
+        display:flex;
+    }
+
+    .menu{
+        margin-left: 8px;
+    } 
+
+    .menu-icon{
+        display: flex;
+    }
+
+    .menu-style{
+        height: 68px;
+        padding: 0 16.5px;
+    }
+
+    .menu-title{
+        font-size: 16.6px;
+        padding: 17px  0;
+        color: #464646;;
+        cursor: pointer;
+    }
+
+    .menu-title:hover{
+        color: #2a2a2a;
+    }
+
+    .menu-max{
+        display: none;
+    }
+
+    .menu-search-profile{
+        width: 420px;
+    }
+
+    .menu-btn{
+        display: none;
+    }
+
+    .nav-gap{
+        flex-grow: 1;
+        margin-left: 8px;
+    }
+    
+    .search{
+        max-width: 100% !important;
+    }
+
+    .banner{
+        height: calc(100vh - 64px);
+        max-height: 800px;
+    }
+
+    .banner-pic{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(100% / 18);
+        height: calc(calc(100vw / 18) + 1.8px) ;
+        padding: 8px;
+    }
+  
+    .banner-gap1{
+        flex-basis: calc(100% / 18 * 6);
+    }
+
+    .banner-gap2{
+        flex-basis: calc(100% / 18 * 10);
+    }
+
+    .banner-gap3{
+       flex-basis: calc(100% / 18 * 12);
+    }
+   
+    .banner-logo{
+        width: 120px;
+        height: 120px;
+    }
+
+    .banner-title{
+        font-size: 34px;
+    }
+
+    .banner-down-A,
+    .banner-down-TV{
+        width: 288px;
+        height: 64px;
+    }
+
+    .bazarapp-pic{
+        display: flex;
+    }
+
+    .bazarachievement{
+        flex-direction: row;
+        margin-bottom: 96px;
+    }
+
+    .topapps{
+        margin-bottom: 96px;
+    }
+
+    .bazarmagazine{
+        margin-bottom: 96px;
+    }
+
+    .magazine-section{
+        width: calc(100% / 3);
+    }
+
+    .magazine-section:last-child{
+        display: none;
+    }
+
+    .achievement-animation{
+        width: 100%;  
+        padding: 4.8px 8px;
+    }
+    .insta-banner{
+        margin-bottom: 96px;
+    }
+
+    .QRcode{
+        display: flex;
+    }
+
+    .f-container{
+        display:flex;
+    }
+
+    .f-navbar{
+        display: none;
+    }
+
+    .changewidth{
+       max-width: 970px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    .changewidth{
+       max-width: 1120px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .nav{
+        max-width: 1360px;
+    }
+
+    .menu-max,
+    .menu-max .menustyle{
+        display: flex;
+    }
+
+    .menu-middel{
+        display: none;
+    }
+
+    .changewidth{
+       max-width: 1360px;
+    }
+    
+}
